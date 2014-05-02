@@ -4,15 +4,15 @@
       {
          "name":"Error codes 1xx",
          "children":[
-            {
+            [{
                "name":"Error code 100",
                "children":[{"name":"100 description goes here","size":1000}]
                "name":"Error code 101",
                "children":[{"name":"101 description goes here","size":1000}]
-            },
+            }],
          "name":"Error codes 2xx",
          "children":
-            {
+            [{
                "name":"Error code 200",
                "children":[{"name":"200 description goes here","size":1000}]
                "name":"Error code 201",
