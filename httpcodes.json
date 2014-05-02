@@ -1,25 +1,41 @@
 {
-   "name":"http code",
-   "children":[
-      {
-         "name":"Error codes 1xx",
-         "children":
-            [{
-               "name":"Error code 100",
-               "children":[{"name":"100 description goes here","size":1000}]
-               "name":"Error code 101",
-               "children":[{"name":"101 description goes here","size":1000}]
-            },
-         "name":"Error codes 2xx",
-         "children":
-            {
-               "name":"Error code 200",
-               "children":[{"name":"200 description goes here","size":1000}]
-               "name":"Error code 201",
-               "children":[{"name":"201 description goes here","size":1000}]
-            }
-      ]
-      
-      }
-]
-}
+ "name": "HTTP response codes",
+ "children": [
+  {
+"name": "1xx: Informational",
+   "children":
+   [
+    {"name": "100","children": [{"name": "Description", "size": 1000},{"name": "Link", "size": 1000}]},
+    {"name": "101","children": [{"name": "Description", "size": 1000},{"name": "Link", "size": 1000}]}
+   ]
+  },
+  {
+"name": "2xx: Successful",
+   "children":
+   [
+   {"name": "200","children": [{"name": "Description", "size": 1000},{"name": "Link", "size": 1000}]}
+   ]
+  },
+   {
+"name": "3xx: Redirection",
+   "children":
+   [
+   {"name": "300","children": [{"name": "Description", "size": 1000}, {"name": "Link", "size": 1000}]}
+   ]
+  },
+   {
+"name": "4xx: Client Error",
+   "children":
+   [
+   {"name": "400","children": [{"name": "Description", "size": 1000}, {"name": "Link", "size": 1000}]}
+   ]
+  },
+   {"name": "5xx: Server Error",
+   "children":
+   [
+   {"name": "500","children": [{"name": "Description", "size": 1000}, {"name": "Link", "size": 1000}]}
+   ]
+  }
+
+ ]
+ }

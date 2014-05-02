@@ -1,0 +1,36 @@
+{
+ "name": "httpcodes",
+ "children": [
+  {
+   "name": "1xx error codes",
+   "children": [
+    {
+     "name": "100",
+     "children": [
+      {"name": "Description", "size": 1000},
+      {"name": "Link", "size": 1000}
+     ]
+    },
+    {
+     "name": "101",
+     "children": [
+      {"name": "Description", "size": 1000},
+      {"name": "Link", "size": 1000}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "2xx error codes",
+   "children": [
+    {
+     "name": "200",
+     "children": [
+      {"name": "Description", "size": 1000},
+      {"name": "Link", "size": 1000}
+     ]
+    }
+   ]
+  }
+  ]
+ }
